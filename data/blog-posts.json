@@ -1,0 +1,15 @@
+{
+  "blogId": "songdo1000miso",
+  "rss": "https://rss.blog.naver.com/songdo1000miso.xml",
+  "updatedAt": null,
+  "posts": [
+    {
+      "title": "네이버 블로그 연동 준비 완료",
+      "link": "https://blog.naver.com/songdo1000miso",
+      "date": "",
+      "category": "BLOG",
+      "description": "GitHub Actions를 한 번 실행하면 실제 네이버 블로그 최신 글로 자동 교체됩니다.",
+      "thumbnail": ""
+    }
+  ]
+}

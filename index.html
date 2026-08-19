@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>송도 천년의미소 | BLOG CONTENT HUB</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700;900&family=Noto+Sans+KR:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--red:#DA1F2D;--ink:#191817;--paper:#f7f4ee;--white:#fff;--line:#dcd6cc;--muted:#77736c;--mint:#dce8e2}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Noto Sans KR",sans-serif}a{color:inherit;text-decoration:none}.wrap{max-width:1420px;margin:auto;padding:0 34px}
+.notice{background:var(--red);color:#fff;text-align:center;padding:8px;font-size:10px;font-weight:900}
+header{position:sticky;top:0;z-index:20;background:rgba(247,244,238,.96);border-bottom:1px solid var(--line)}.nav{height:76px;display:flex;align-items:center;gap:30px}.logo{width:125px;background:#111;padding:6px}.menu{margin-left:auto;display:flex;gap:23px;font-size:12px;font-weight:900}.menu a:hover{color:var(--red)}.consult{background:var(--red);color:white;border-radius:999px;padding:11px 16px;font-size:11px;font-weight:900}
+.hero{display:grid;grid-template-columns:1.35fr .65fr;gap:14px;padding:48px 0 70px}.feature{background:var(--mint);border:1px solid var(--line);padding:43px;min-height:510px;position:relative;overflow:hidden}.feature:after{content:"";position:absolute;width:470px;height:470px;border-radius:50%;background:var(--red);right:-165px;bottom:-210px}.k{font:900 10px "DM Sans";letter-spacing:.14em;color:var(--red)}h1{font-size:clamp(54px,7.5vw,103px);line-height:.88;letter-spacing:-.085em;margin:27px 0 25px}.feature p{font-size:15px;line-height:1.9;color:#555;max-width:620px;position:relative;z-index:2}.side{display:grid;gap:14px}.panel{background:#fff;border:1px solid var(--line);padding:25px;min-height:160px;display:flex;flex-direction:column;justify-content:space-between}.panel.red{background:var(--red);color:#fff}.panel h3{font-size:21px;letter-spacing:-.05em;margin:24px 0 5px}.panel p{font-size:11px;line-height:1.7;color:#777;margin:0}.panel.red p{color:#fff}
+section{padding:76px 0;border-top:1px solid var(--line)}.head{display:flex;align-items:end;justify-content:space-between;margin-bottom:30px}h2{font-size:clamp(38px,5vw,68px);letter-spacing:-.075em;line-height:.95;margin:8px 0 0}.updated{font:700 10px "DM Sans";color:#888}
+.bloggrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.post{background:#fff;border:1px solid var(--line);display:flex;flex-direction:column;min-height:430px}.thumb{height:215px;background:linear-gradient(135deg,#181818 0 30%,var(--red) 30% 61%,#ddd 61%);background-size:cover;background-position:center}.body{padding:20px;display:flex;flex-direction:column;flex:1}.meta{font:900 9px "DM Sans";color:var(--red);display:flex;gap:8px}.post h3{font-size:20px;line-height:1.4;letter-spacing:-.045em;margin:10px 0}.post p{font-size:11px;line-height:1.75;color:#777}.post a{margin-top:auto;font-size:11px;font-weight:900;border-bottom:1px solid #222;width:max-content;padding-bottom:4px}
+.downloads{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.download{background:#111;color:#fff;min-height:210px;padding:25px;display:flex;flex-direction:column;justify-content:space-between}.down{font:900 30px "DM Sans";color:var(--red)}.download small{color:#999}.download h3{font-size:20px}.download a{font-size:11px;font-weight:900}
+.cta{background:var(--red);color:#fff}.cta h2{max-width:850px}.cta a{display:inline-block;background:#111;color:#fff;border-radius:999px;padding:14px 18px;font-size:12px;font-weight:900}
+footer{background:#191919;color:#888;padding:42px 0;font-size:10px}
+.empty{grid-column:1/-1;background:#fff;border:1px dashed #aaa;padding:30px;font-size:13px;line-height:1.8}
+@media(max-width:850px){.menu{display:none}.hero{grid-template-columns:1fr}.bloggrid{grid-template-columns:1fr 1fr}.downloads{grid-template-columns:1fr}}@media(max-width:560px){.wrap{padding:0 19px}.bloggrid{grid-template-columns:1fr}.feature{padding:28px}.head{display:block}.updated{margin-top:12px}}
+</style>
+</head>
+<body>
+<div class="notice">NAVER BLOG AUTO SYNC · GitHub Actions가 최신 포스트를 자동으로 가져옵니다.</div>
+<header><div class="wrap nav"><img src="assets/logo.png" class="logo" alt="천년의미소"><nav class="menu"><a href="#latest">최신콘텐츠</a><a href="#works">학생작품</a><a href="#admission">입시정보</a><a href="#download">자료실</a><a href="#about">학원소개</a></nav><a class="consult" href="#contact">상담예약 ↗</a></div></header>
+
+<main class="wrap">
+<div class="hero"><article class="feature"><div class="k">SONGDO 1000MISO · CONTENT HUB</div><h1>블로그는 작성하고,<br>홈페이지는<br><span style="color:var(--red)">자동으로.</span></h1><p>네이버 블로그에 새로운 글을 올리면 GitHub Actions가 RSS를 확인해 홈페이지의 최신 콘텐츠 카드를 갱신합니다. 홈페이지는 학원 브랜드와 상담 동선을 담당하고, 블로그는 콘텐츠 관리 공간으로 활용합니다.</p></article><aside class="side"><div class="panel"><div class="k">PARENTS</div><div><h3>입시 정보</h3><p>학부모가 검색해서 들어와 필요한 정보를 빠르게 확인합니다.</p></div></div><div class="panel"><div class="k">STUDENTS</div><div><h3>학생 작품</h3><p>게시물 제목과 내용을 바탕으로 최신 작품 콘텐츠를 노출합니다.</p></div></div><div class="panel red"><div class="k" style="color:#111">AUTO UPDATE</div><div><h3>6시간마다 자동 확인</h3><p>필요할 때 Actions에서 수동으로 즉시 갱신할 수도 있습니다.</p></div></div></aside></div>
+
+<section id="latest"><div class="head"><div><div class="k">01 / LATEST FROM NAVER BLOG</div><h2>최근 블로그 콘텐츠</h2></div><div class="updated" id="updated">SYNC WAITING…</div></div><div id="blogPosts" class="bloggrid"><div class="empty">블로그 데이터를 불러오는 중입니다.</div></div></section>
+
+<section id="works"><div class="head"><div><div class="k">02 / SMART CONTENT</div><h2>글은 블로그에,<br>분류는 홈페이지에서.</h2></div></div><div class="bloggrid">
+<article class="post"><div class="thumb"></div><div class="body"><div class="meta">STUDENT WORKS</div><h3>학생 작품 / 수업 결과물</h3><p>향후 제목이나 네이버 카테고리에 ‘학생작품’이 포함된 글만 자동 필터링해 별도 페이지를 만드는 방식으로 확장할 수 있습니다.</p></div></article>
+<article class="post"><div class="thumb"></div><div class="body"><div class="meta">ADMISSION INFO</div><h3>연합평가 / 입시정보</h3><p>평가 일정, 입시 설명회, 대학별 실기 정보를 부모님이 찾기 쉬운 메뉴로 재분류할 수 있습니다.</p></div></article>
+<article class="post"><div class="thumb"></div><div class="body"><div class="meta">ACADEMY NEWS</div><h3>학원 수업 / 공지사항</h3><p>수업 현장과 학원 소식은 홈페이지 최신 소식 영역에 자동 노출하고 원문은 블로그로 연결합니다.</p></div></article>
+</div></section>
+
+<section id="download"><div class="head"><div><div class="k">03 / DOWNLOAD CENTER</div><h2>학부모가 저장해가는 자료실</h2></div></div><div class="downloads"><div class="download"><div><div class="down">↓</div><small>PDF / GUIDE</small><h3>2026 미대입시 가이드</h3></div><a href="#">DOWNLOAD ↗</a></div><div class="download"><div><div class="down">↓</div><small>PDF / SCHEDULE</small><h3>연합평가 일정표</h3></div><a href="#">DOWNLOAD ↗</a></div><div class="download"><div><div class="down">↓</div><small>PDF / CONSULT</small><h3>입시상담 체크리스트</h3></div><a href="#">DOWNLOAD ↗</a></div></div></section>
+</main>
+
+<section class="cta" id="contact"><div class="wrap"><div class="k" style="color:#111">04 / CONSULTATION</div><h2>콘텐츠를 충분히 확인한 뒤<br>상담으로 이어집니다.</h2><a href="#">입시 상담 예약 ↗</a></div></section>
+<footer><div class="wrap">송도 천년의미소 · NAVER BLOG AUTO SYNC DEMO</div></footer>
+
+<script>
+async function renderBlog(){
+  const target = document.getElementById('blogPosts');
+  try{
+    const res = await fetch('data/blog-posts.json?ts=' + Date.now(), {cache:'no-store'});
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    const data = await res.json();
+    const posts = (data.posts || []).slice(0, 9);
+    document.getElementById('updated').textContent =
+      data.updatedAt ? 'LAST SYNC · ' + new Date(data.updatedAt).toLocaleString('ko-KR') : '첫 자동 동기화 전';
+    if(!posts.length){
+      target.innerHTML='<div class="empty">표시할 블로그 글이 없습니다.</div>';
+      return;
+    }
+    target.innerHTML = posts.map(p => {
+      const bg = p.thumbnail ? `style="background-image:url('${String(p.thumbnail).replace(/'/g,"%27")}')"` : '';
+      return `<article class="post">
+        <div class="thumb" ${bg}></div>
+        <div class="body">
+          <div class="meta"><span>${escapeHtml(p.category || 'BLOG')}</span><span>${escapeHtml(p.date || '')}</span></div>
+          <h3>${escapeHtml(p.title || '')}</h3>
+          <p>${escapeHtml(p.description || '')}</p>
+          <a href="${safeUrl(p.link)}" target="_blank" rel="noopener">네이버 블로그에서 읽기 ↗</a>
+        </div>
+      </article>`;
+    }).join('');
+  }catch(e){
+    target.innerHTML='<div class="empty">블로그 데이터를 불러오지 못했습니다. GitHub Actions의 <b>Sync Naver Blog and Deploy Pages</b> 워크플로를 먼저 실행해 주세요.</div>';
+  }
+}
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));}
+function safeUrl(s){try{const u=new URL(s);return /^https?:$/.test(u.protocol)?u.href:'#'}catch(e){return '#'}}
+renderBlog();
+</script>
+</body></html>
